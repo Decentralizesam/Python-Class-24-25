@@ -1,0 +1,5 @@
+create GitHub account : Done   
+Connect your computer to GitHub : Done
+create a repository on GitHub : Done
+name it : Phyton class : Done
+
