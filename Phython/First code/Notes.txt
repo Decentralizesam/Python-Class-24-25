@@ -1,8 +1,0 @@
-Steps
-The following are the steps to write a Python program to print Hello World –
-
-Step 1: Install Python. Make sure that Python is installed on your system or not. If Python is not installed, then install it from here: https://www.python.org/downloads/
-Step 2: Choose Text Editor or IDE to write the code.
-Step 3: Open Text Editor or IDE, create a new file, and write the code to print Hello World.
-Step 4: Save the file with a file name and extension ".py".
-Step 5: Compile/Run the program
