@@ -1,0 +1,83 @@
+1. list 15 python keywords
+
+None
+break
+except
+in
+raise
+
+False
+await
+else
+import
+pass
+
+and	
+continue
+for
+lambda
+try
+
+True
+class
+finally	
+ is
+return
+
+as
+def
+from
+nonlocal
+while
+
+async	
+elif	
+if	
+not
+with
+
+assert	
+del
+global
+or
+yield
+
+
+QTN2 : List of python operators 
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
+
+
+: ARITHMETIC OPERATORS
+Python arithmetic operators perform basic mathematical operations on numeric 
+data, such as addition(+), subtraction(-), multiplication(*), division(/), modulus(%), exponentiation(//), 
+and floor division. 
+Python arithmetic operators can be applied to various data types, including integers,
+floating-point numbers, and complex numbers.
+
+note: Five code examples on "PRACTICE.PY" file..
+
+
+: LOGICAL OPERATORS
+In Python, logical operators are used to combine multiple conditions and return a Boolean value (True or False).
+The two most commonly used logical operators are 'and' and 'or'. 
+some programmers might be used to using '&&' as a logical operator from other programming languages.
+
+note: Five code examples on "PRACTICE.PY" file..
+
+: INEQUALITY OPERATORS
+The Python equality operator ( == ) checks if two variables or values are equal. 
+The result of the evaluation is either True or False. 
+The equality operator returns True if the values are equal. 
+If the values aren't equal, the comparison returns False.
+
+note: two code examples on "PRACTICE.PY" file..
+
+: ASSIGNMENT OPERATORS
+The assignment operator = assigns the value of its right-hand operand to a variable, a property, or an indexer element given by its left-hand operand.
+ The result of an assignment expression is the value assigned to the left-hand operand.
