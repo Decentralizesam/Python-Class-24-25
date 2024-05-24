@@ -6,3 +6,26 @@ Step 2: Choose Text Editor or IDE to write the code.
 Step 3: Open Text Editor or IDE, create a new file, and write the code to print Hello World.
 Step 4: Save the file with a file name and extension ".py".
 Step 5: Compile/Run the program
+
+
+SCALAR DATE TYPE
+VESTORS
+
+A list has items seperated by commas and are inside square brackets
+the items cant be of the same data type
+
+
+Assignment 3
+operators on the  py list
+append
+insert
+
+write notes and code examples (each two examples) 
+
+Remove 
+pop 
+extend 
+concatination 
+count 
+sort 
+reverse
