@@ -13,12 +13,47 @@ VESTORS
 
 A list has items seperated by commas and are inside square brackets
 the items cant be of the same data type
+data ina list is in sequecent
+they are mutable
+
+variable ables us to take in single values
+tuple $ list allows us to add in many items
+allows us to enter in different items of different data types
+
+we cant have only element in tuple without ending in a commas
+tuples are immutable/cant be changed
+
+to delete tuple we say del tuple
+
+converting tuple to list
+
+new_list = list(names) - tuple to list
+
+new_list = tuple(new_list)-
+
+a tuple known by brackets and a list is known by square brackets 
+
+for loop in tuple
+for element in new_list:
+print(element)
+
+SORTING......
+
+tup2=('a','b','c','d','e','f')
+sorted_list=(sorted_list)
+sorted_list=tuple(sorted_list)
+print(sorted_list)
+
+
 
 
 Assignment 3
 operators on the  py list
 append
 insert
+
+tuple packing
+
 
 write notes and code examples (each two examples) 
 
@@ -29,3 +64,108 @@ concatination
 count 
 sort 
 reverse
+
+
+Dictorianaries
+the values of a dictionary can be of any type but the must b eof an immutable data type either strings,numbers,and tuples
+keys are immutable yet list are mutable
+a dictionary is mutable
+del dict (for deleting the key)
+dict clear (for deleting the whole code)
+
+
+  Reverse ------ print(tup3[::-1])
+
+  Endure(persistent)
+  consistency(daily base)
+
+  Burnt-out
+  imposter syn
+   2 2 2
+
+2 - Class
+2 - Research(before going to sleep)
+2 - code(after waking up in the morning)
+
+2D arrays in python
+5 examples on 5 operations in 2d arrays
+how do we implement a switch-case in phython
+
+string anything inside a 'string' or "string"
+integers Whole numbers
+Boolean true or false
+Float decimal points numbers
+Double 1000000000000
+
+monday - Projects 
+
+Databases python works with 
+Mysql
+postgressql
+sequecent
+
+2D arrays
+we access the value using an index in 2D arrays
+2D arrays has columns and rows
+
+
+Accessing 2D arrays 
+(Matrixxxxx)
+we shall be using jupyter
+
+
+FUNCTIONS
+
+Indention in python
+
+keywords in python
+str
+def
+class
+return
+lift
+tuple
+print
+types
+
+Name convetion of function 
+
+camel case 
+stringFunction
+
+pascal case       a class uses pascal case
+StringFunction
+
+snake case
+string_function
+
+
+       Functions with parameters and arguments
+
+       if you dont assign anything to the return type it will return None
+       printing is different from printing
+       two types of function 
+       a function that performs a task
+       then a return function that performs something and returns None
+
+
+       keyword argument comes afrter position 
+
+       code versioning - upgrade in code from either version 1 to version 2
+
+       git 
+       git Init 
+       git add
+       git commit
+       git push
+       git remote
+
+       github.com
+       git lab
+       bit bucket
+
+
+       master or main  
+       branches
+
+

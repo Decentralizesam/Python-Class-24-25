@@ -1,3 +1,8 @@
+# function definitions
 def greet():
-    return "greeting"
-    print(greet())
+    greeting="Hello"
+    return greeting
+
+# function calling
+   
+print(greet())

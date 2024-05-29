@@ -1,0 +1,27 @@
+OPERATORS IN PYTHON LIST
+
+append : append adds items atvthe end of list
+
+Insert : insert adds it(value) a given index 
+
+Remove : The remove() method removes the first occurrence of the element with the specified value.
+
+Pop : The pop() method removes and returns the last element from a Python list by default.
+
+Extend : The pop() method removes and returns the last element from a Python list by default.
+
+Concatination : The process of combining two or more strings, lists, or other data structures into a single entity
+
+Count :  returns the number of times an object appears in a list. 
+
+Sort : to sort either ascending or descending data elements from the list of
+integers, list of floating-point numbers, list of strings, and others.
+
+Reverse : reverses the sorting order of the elements.
+
+
+
+
+NOTE: each two examples on the  practice.py file
+
+

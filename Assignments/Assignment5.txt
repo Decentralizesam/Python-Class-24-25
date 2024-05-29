@@ -5,12 +5,17 @@ Parameters are variables that are defined in the function definition.
 
 MORE ABOUT Parameters
 
- They are assigned the values which were passed as arguments when the function was called, elsewhere in the code.
+ They are assigned values which were passed as arguments when the function was called, elsewhere in the code.
 
 - Function arguments
 In Python, an argument is the value passed to a function when it's called.
 
+keyword argument (n=1)
+default argument
+Osition argument 
+Arbitrary argument
+
 MORE ABOUT Arguments
 
-Parameters are the variables inside a function's parentheses. Arguments provide values for those parameters.
+Parameters are the variables inside a function's parentheses. Arguments provide values for those parameters
 

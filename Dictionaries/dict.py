@@ -1,5 +1,6 @@
 dict1={'a': 1, 'b': 2, 'c': 3}
-dict1['b'] =4
+dict1['b'] =4 # simple way to update a dict
+
 
 dict_update({'a':1, 'b':4 , 'c':6})# update dict 'c'
 print(dict1)
