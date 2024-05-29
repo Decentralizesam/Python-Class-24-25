@@ -1,0 +1,6 @@
+5 operators in 2D arrays are 
+-division
+-addition
+-subtraction
+-multiplication
+-matrix multiplication
