@@ -43,13 +43,13 @@ print(result)
 
 # HOW TO IMPLEMENT A SWITCH-CASE IN 2D ARRAYS 
 def case1():
-    print("This is case 1")
+    print("Sam")
 
 def case2():
-    print("This is case 2")
+    print("Elton")
 
 def case3():
-    print("This is case 3")
+    print("yasin")
 
 switch = {
     1: case1,
