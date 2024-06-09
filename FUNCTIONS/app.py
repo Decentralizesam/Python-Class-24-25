@@ -13,12 +13,12 @@ print(funct1(30,56))
 
 # function definitions
 def greet():
-    greeting="Hello"
-    return greeting
+    details=input("First Name : ") 
+    print(f"your name is :{details}" )
+    return name
 
-# function calling
-   
-print(greet())
+# function calling  
+greet()
   
 
 
