@@ -6,3 +6,28 @@
 
        when i call profile i should be able to print the name age and course
        call registration inside the function
+ 
+ THEORY PART
+
+1. QN : How to call a function into another function
+
+To call a function in Python, you simply type the name of the function followed by parentheses (). 
+If the function takes any arguments, they are included within the parentheses.
+
+2. how to call a function into another function
+
+
+ Define both functions: 
+Define both functions separately. Each function should have its own purpose and set of instructions.
+
+ Purpose: 
+Understand what each function does. One function might gather information (like name, age, course), while the other might display or process that information.
+
+ Call one function from another: 
+To use the functionality of one function within another, simply call the function inside the other function. You do this by writing the function's name followed by parentheses ().
+
+ Pass arguments:
+ If the inner function requires any arguments, make sure to pass them when calling the function inside another function.
+
+Use the returned value (optional): 
+If the inner function returns any value, you can capture and use that value in the outer function.

@@ -1,6 +1,16 @@
 5 operators in 2D arrays are 
--division
--addition
--subtraction
--multiplication
--matrix multiplication
+
+1. Accessing Elements:
+  Allows you to retrieve a specific element from the 2D array using its indices.
+
+2. Adding Matrices: 
+Enables you to add two matrices element-wise, resulting in a new matrix with the sum of corresponding elements.
+
+3. Transposing a Matrix: 
+Allows you to switch the rows and columns of a matrix, effectively creating a new matrix where the rows of the original matrix become columns and vice versa.
+
+4. Multiplying by a Scalar:
+ Enables you to multiply each element of the matrix by a scalar value, resulting in a new matrix where each element is scaled by the scalar.
+
+5. Checking Existence of an Element:
+ Enables you to check if a specific element exists within the 2D array, returning a boolean value indicating whether the element is present or not.

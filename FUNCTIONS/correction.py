@@ -2,6 +2,9 @@
 def registration(name, age, course):
     def profile(name, age, course):
      
-     return registration
+     return name
 
     print(registration("sam", 15, python))
+    
+
+
