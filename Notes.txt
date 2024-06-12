@@ -312,8 +312,23 @@ Assignmnet
 Create an application that takes in list(use a dict inside a list ) , Dictorianaries and perform the following function join,split and replace
 
 
+Inheritance in python 
+Parent class with child class 
+Superclass with subclass
 
+single Inheritance
+multiple Inheritance
+Inheritance can have parenthesis in the class 
+we create an instance from Constructors 
 
+create a class called shape
+take in colour as a parameters 
+create child class Rectangle
+take in clour,length and width as a parameter
+calculate the area,and parameter(methods of a rec )
+the clour ,length and width should be dynamic 
+print the area: ,colour: ,pirameter :
+use return 
 
 
 
