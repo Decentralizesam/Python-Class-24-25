@@ -233,7 +233,7 @@ continue statementement
 
 use range function 
 use continue statementement
-continue should be a function
+continue should be a functions
 the start,step and stop should be input values from the terminal 
 
 
@@ -319,7 +319,7 @@ Superclass with subclass
 single Inheritance
 multiple Inheritance
 Inheritance can have parenthesis in the class 
-we create an instance from Constructors 
+we create an instance(objects) from Constructors 
 
 create a class called shape
 take in colour as a parameters 
@@ -329,6 +329,69 @@ calculate the area,and parameter(methods of a rec )
 the clour ,length and width should be dynamic 
 print the area: ,colour: ,pirameter :
 use return 
+
+
+We can create a class with no parameters or an intiazer 
+
+Intenship : Volunteer to work in a campany 
+File handling(reading and writing files)
+
+
+types of files in file handling 
+.txt
+.csv
+.json 
+
+
+operations we shall be using 
+Writing 
+reading
+appending 
+open 
+while
+with 
+
+
+
+read = R
+write = w
+append = a 
+
+Download sample files of json format and Csv format
+json editor online
+
+# instance(Objects)of a class person(An object is an instance of a class)
+# class is a blueprint of which objects are created 
+
+ # super allows the class to initialise the atrributes 
+#__init__ allows us to initialize the attributes of a class(it is known as a constructor)
+ # allows us to acesss attributes,methods and variable 
+ # Constructor is a special methdo that is called when an object is created
+ #purpose of a constructor
+# it is used to intialize the object's attributes
+
+
+File handling
+# opening a file we use open(function)
+# how to open a file
+# Modes "r","w","a","b"
+
+
+uses of Read 
+
+# Acessing data 
+# Data processing
+# Data transformations
+# Data analysis 
+# # with enables us to explicitly close the file
+
+
+
+differences between  a function and a class 
+
+def function():
+class MyClaass:
+
 
 
 

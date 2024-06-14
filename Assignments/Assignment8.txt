@@ -1,0 +1,8 @@
+create a class called shape
+take in colour as a parameters 
+create child class Rectangle
+take in clour,length and width as a parameter
+calculate the area,and parameter(methods of a rec )
+the clour ,length and width should be dynamic 
+print the area: ,colour: ,pirameter :
+use return 

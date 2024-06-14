@@ -5,17 +5,17 @@
 #return dog name and bark as a string
 
 
-class Animal:
-    def __init__(self, dogname):
-        self.Dogname = dogname
-
-    def Character(self):
-        return f"A Barking Dog {self.Dogname}"
-
-Dogname=input("Enter the Dog name :")
-
-dog=Animal(Dogname)
-
-print(dog.Character())
 
 
+
+class cat:
+    def __init__(self,name):
+        self.name = name
+
+    def behaviors(self):
+        return f"A pretty cat : {self.name}"
+
+name=input("Enter the name of the cat :")
+
+character=behaviors()
+print(character)
