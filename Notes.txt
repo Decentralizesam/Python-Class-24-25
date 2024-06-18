@@ -391,8 +391,76 @@ differences between  a function and a class
 
 def function():
 class MyClaass:
+By using with keyword we can return a context manager as an object 
+open() function to open a file in either way to write or read 
+pass in python is used as a placeholder for future code 
 
 
+
+4 OOP concepts 
+1. Abstraction 
+2. encapsulation 
+3.Inheritance
+4.polymorphism 
+
+for a json file we read using ".load"
+for a json file we write by using ".dump" the file dump can take data , file,indent=2
+
+
+json file 
+import module json 
+json (load)-----reading 
+json
+
+
+Django(learn Django to be a PRO)
+
+work on the CSV file 
+web scripting on Monday 
+Html learning 
+finish at julyg 18th
+
+
+what is an API's 
+setting up python environment 
+ - requests Library (Simplifies making HTTP requests)
+ - how we install packages in python 
+ 1.pip
+ 2. pip -v (version of python)
+ 3. pip install requests 
+
+ 4. pip freeze > requirements.txt
+ each project must have a requirement file ... a requirement file isz used to store all the installed packages
+generating all libraries installed in a project 
+pip install -r requirements.txt
+
+a package is something developed to easy your work 
+an api has a url and an end point 
+
+
+requests enables us 
+
+404 page not found 
+200 page found 
+not acceptable 
+forbideen 
+200 
+
+semrush blog website for http status code 
+read the Api doumentation 
+
+http status code 
+
+apis are made up of end points to get the results 
+a function performs a task 
+authentication ( passwords),login
+base url is the default url of the website 
+then after the base url we have an end point 
+ we have url,headers and parameters 
+ api calls ( we need to understand before web scripting)
+ we cant do web scripting without beautiful soup 
+ web scrapting allows us to take information and make analysis 
+ 
 
 
 
