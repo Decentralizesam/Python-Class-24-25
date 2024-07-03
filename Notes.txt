@@ -619,6 +619,7 @@ Dataframe we have Methods and Classes
 head to explain rows and columns of our data 
 isnull is a method or function that identify missing values 
 dataframe is a class 
+A data frame is data structure that organizes data into two dimentional of rows and column 
 .describe this describes the data 
 how to merch data sets together 
 
@@ -655,10 +656,246 @@ daa transformations in data Science
 data vizualisation
 
 
+why we use the normalize 
+use of Filtered 
+
+
+np array : a multi-dimensional array of items of the same type and size
+Implace :  operations that modify an object directly without creating a new object
+filter : filters a specific number the programmer has entered
+Describe : we find statistical methods by using describe function
+isnull : isnull function is to find out the missing values 
+Groupby : allows you to group data based on a single column or more
+mean : the average 
+merged :Combine two Series or DataFrame objects with SQL-style joining.
+head : displays the first five rows of the dataframe by default.
+
+
+
+Series : A Series is a one-dimensional array of data.
+Array :containers which are able to store more than one item at the same time
+2 Dimentional array : an array of arrays that can be represented in matrix form, like rows and columns
+map:  a function that works as an iterator to return a result after applying a function to every item of an iterable
+
+when do we use a map function and a for loop
+Data sets for Banking and traning the model on the specific data 
+send an emial by using Ai on a project 
+
+
+DATA CLEANING 
+
+Add three group members 
+Python-class-group c
+daily commits * 
+Branch 
+2 branches and a main branch 
+file A 
+file B 
+
+Start with Functions
+Objects 
+
+enter your team 
+variables 
+Functions (Call * Defination)
+String operations (Strip/Replace)
+lambda
+range
+if 
+loops
+map
+Classes and Objects
+File handling 
+Web scrapting & API calls 
+Data science(Data cleaning)
+Machine learing ( training a module )
+making our data Ai 
 
 
 
 
+Data Science 
+Refers to fixing of bad data in your data set 
+
+The bad data could be :
+- Empty cells 
+- Data in a wrong format 
+- Wrong data 
+- Duplicates 
+
+We use .Dropna to remove rows from our data 
+Example 
+
+import pandas as pd 
+de=pd.read_csv('data.csv')
+new_df=df.dropna()
+print(new_df.to_string())
+
+If you want to change the original dataframe we use inplace=true
+ Example 
+
+ import pandas as pd
+ df=pd.read_csv('data.csv')
+ df.dropna(inplace=true)
+print(df.to_string())
+
+the inplace = true will not return a new dataframe,but will will remove all rows containing
+ NULL values from the origin Data frame 
+
+REPLACE EMPTY VALUES 
+
+another way to deal with empty cells is to insert a new value instead 
+This way you don not have delete entire rows just
+ because of some empty cells 
+
+ The fillna()method allows us to reolace empty cells with a value :
+Example 
+
+import pandas as pd
+df=pd.read_csv('data.csv')
+df.fillna(13e0,inplace=true)
+print(df.to_string())
+
+ # the to_string method in pandas is used to Convert a dataframe or series into a string represention 
+
+ REPLACE ONLY FOR SPECIFIED COLUMNS WITH FILLNA 
+
+The example above replaces all empty cells in the whole data frame 
+To only replace empty values for one column,Specify the column name for Dataframe:
+
+import pandas as pd
+df=pd.read_csv('data.csv')
+df['Calories'].fillna(130,inplace=true)
+print(df.to_string())
+
+REPLACE WITH MEAN,MeDIAN OR MODE 
+to replace with mean,median and mode we hav eto first calculate the (mean,mode and median)
+Pandas use the mean(),median(),Mode() methods to calculate the respective values for a specifeid column 
+
+Example 
+import pandas as pd
+df=pd.read_csv('data.csv')
+x=df["Calories'].mean()
+df['Calories'].fillna(x,inplace=true)
+print(df.to_string())
+
+Mean = (the sum of all values / by the number of Values)# average 
+
+Example (MODE)
+
+import pandas as pd
+df=pd.read_csv('data.csv')
+x=df["Calories'].mode()
+df['Calories'].fillna(x,inplace=true)
+print(df.to_string())
+
+Example (median)
+
+import pandas as pd
+df=pd.read_csv('data.csv')
+x=df["Calories'].mode()
+df['Calories'].fillna(x,inplace=true)
+print(df.to_string())
 
 
+PANDAS CLEANING DATA OF WRONG FORMAT 
 
+We data in a cell has a data with wrong format it can make it difficult or even impossible to analyze the data .
+to do that , you hav etwo options either Removes the rows or convert all cella in the columns into the same format 
+
+Pandas has a to_datetime() method for Dates 
+
+Example 
+
+Convert to Dates
+
+import pandas as pd 
+df=df.read_csv('data.csv')
+df['Date']=pd.to_datetime(df['Date'])
+df.dropna(subset=['Date'],inplace=true)
+print(df.to_string())
+
+Removing Rows 
+we can remove the rows by using the dropna()method 
+
+Example 
+
+df.dropna(subset=['Date'],inplace=true)
+print(df.to_string())
+
+# subset use ----------------
+
+CLEANING WRONG DATA 
+Wrong data doesnot have "Empty cells" orf "Wrong format" , it can just be wrong , just like if a person registered "200" instead of "2.00"
+One can spot wrong data by looking at the Data set , because you have an expectation of what it should be .
+
+REPLACE VALUES 
+
+df.loc[7,'Duration']=45
+print(df.to_string())
+
+df.loc meaning in python used to retrieve the 
+group of rows and columns by Labels or a boolean array in the Data frame .
+Loc (Label Based)
+
+if the data is big one can loop all over the data and if a specific if statement is notified it should change te data to a specific data 
+ Example
+
+ import pandas as pd
+  df=pd.read_csv("data.csv")
+  for x in df.index:
+  if df.loc[x,'Duration'] > 120:
+  df.loc[x,'Duration']=120
+  print(df.to_string())
+
+another way of handling wrong data is to remove the rows that contains wrong data 
+This way you do not have to find out what to replace them with, and there is a good chance you do not need them to do your analysis
+
+Example 
+
+Delete rows where "Duration" is higher than 120 :
+import pandas as pd
+df=pd.read_csv("data.csv")
+for x in df.index:
+if df.loc[x,'Duration'] > 120:
+df.drop(x,inplace=true)
+# putting the the inplace = true arguemnet to make the changes in the original Dataframe object instead of returning a copy 
+print(df.to_string)
+
+DISCOVERING DUPLICATES 
+To discover Duplicates we need to use the Duplicate() method 
+the Duplicate() method returns a boolean values for each row:
+Returns TRUE for each row that has a duplicate
+Returns false for each row that doesnot have a duplicate
+
+Example 
+
+import pandas as pd 
+df=pd.read_csv("data.csv")
+print(df.duplicate())
+
+
+REMOVING DUPLICATES
+to remove duplicates we need to use the drop_duplicate() method
+
+Example 
+
+import pandas as pd 
+df=pd.read_csv("data.csv')
+df.drop_duplicate(inplace=true)
+print(df.to_string())
+
+
+DATA CORRELATIONS (Finding relationships)
+We can find that by using the corr() method 
+the corr() method calculates the relationsships between each column in your data set 
+
+import pandas as pd 
+df=pf.read_csv("data.csv")
+print(df.corr())
+
+A good correlation depends on the use , but i think it is safe o say you to have atleast 0.6(or -0.6)to call it a good correlation 
+
+The method for vizualisation the data in the dataframes into a picture is df.plot()
+scatter type of plot 
+histogram type of plot 

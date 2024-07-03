@@ -20,7 +20,7 @@ df1=pd.read_json('datasets/users.json')
 #isnull function identidies missing values
 print(df.isnull().sum())
 #filling missing values with the mean of the columns 
-#df['value'].fillna(df['value'].mean())
+df['value'].fillna(df['value'].mean())
 
 #Basic statistics of a data set
 print(df.describe()) #NB: this describes the data 
@@ -74,7 +74,7 @@ print(df_filled)
 
 
 #Filtering 
-filtered_df=df_missing[df_missing['Age']>22.5]
+filtered_df=df_missing[df_missing['Age']>22.5]  # filtering 
 print(filtered_df)
 
 #data grouping 
