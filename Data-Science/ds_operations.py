@@ -74,3 +74,18 @@ def age_group(age):
 users_df['age_group']=users_df['age'].apply(age_group)
 print("\n users dataframe with group")
 print(users_df.head)
+
+
+
+#Sample Dataframe with categories 
+data={
+    'ID':[1,2,3,4,5,6,7],
+    'categories':['A','B','C','A','B','C','A']
+}
+
+df=pd.DataFrame(data)
+#Define mapping of categories to intergers
+category_mapping={'A':1,'B':2,'C':3}
+df['Categories']=df['Categories'].map(category_mapping)
+print('Dataframe after Mapping')
+print(df)
