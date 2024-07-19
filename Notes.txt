@@ -461,7 +461,198 @@ then after the base url we have an end point
  we cant do web scripting without beautiful soup 
  web scrapting allows us to take information and make analysis 
  
+Research : DATA ANALYSISES 
+API token inorder to get the results from a secured website 
 
+
+a847aa77929479dcf4ac15a3f5c71b28ea646771
+authentication should be a key and the token must have a formatter string 
+
+
+WEB scrapting
+processs of extracting data from a secure/insecure website
+
+REASONS : WEB scrapting
+1. data collection 
+2. data automation script (NCC / BBC ) BACKGROUND TASK FOR SCRIPTING WEBSITES/crpto currencies for data analysis 
+3.Monitoring and research (Eg.tech)
+
+
+Requirements
+-beautifulsoup(package that allows us to go to websites )
+- html 
+- web page(that one is scraping(API/URL))
+
+virtualenv venv
+venv\Scripts\Activate P1
+pip install - 
+
+
+<html> opening and closing tag 
+three elements of html 
+1. head
+2. body
+
+<p> paragragh
+<h2> heading 
+<p style="colour:green">
+</p>
+<body>
+m1>
+
+
+when we want automatic closing we use With(file handling)
+to get url we import request 
+
+printing the value of arributes 
+arributes in htlm are everything  after a tag 
+
+Web sites are all created with html 
+
+Tags 
+element
+attributes
+
+
+Scrfipting a url 
+a file that perfomrs a task and has functions is a script 
+
+
+before installing a package 
+we must have a virtual environment(creating another computer in your computer )
+virtual is something that doesnt exist but work
+Impotance of virtual machine 
+to avoid circullar imports
+git ignore
+
+
+
+
+
+MACHINE LEARNING 
+
+Data Scienec:
+-Data science is a multi displinary fild that uses scientific ,methods,processes,algorithms and 
+ systems to extract knowledge and insights from structured and unstructured data
+ (this involves data collection,cleaning,analysis and vizualisation)
+
+
+ We basically dealing with data and the science init extracts the knowledge 
+ data a meaningless information
+
+ PYTHON IN DATA science
+
+ Reasons for using python for data science 
+ -widely used because of simplicity,readability and availability of powerful and free packages(libraries)
+ - very simple 
+
+ Basic libraries we shall be using : 
+
+ pandas : data manupulation and analysis.
+ Numpy : numerical operations
+ Matiplotlib : data vizualisation
+ scipy : data computing/ computation
+ jupyter note book : analysis and data vizualisation
+
+
+ MACHINE LEARNING 
+    Is a subset of artificial intelligence that focuses on development of algorithms and statistical modules that enables computers to learn and make predictions or decisions based on the given data 
+algorithms(procedure of doing something/step by step daily routine of doing something )
+
+
+python for machine learning
+
+- A variety of frameworks and libraries
+
+(libraries in machine learning)
+1. Scikit-learn : general purpose machine learning library
+2. Tensorflow : Deep learning 
+
+Artificial intelligence(AI)
+Its a broad field that involves the simulation or resemblance of human intelligence(how a human being thinks)
+this includes the following algorithms
+- learning(machine learning)
+-reasoning 
+- problem solving 
+- Language understanding
+
+Libraries 
+- pytorch - Neural networks and deep learning 
+- tensorflow 
+- openCV
+- NLTK _ for natural language processing 
+
+
+DS involves extracting of data 
+ML training the model , learning the data
+AI Simulation(resemblance of human intelligence(thinking))
+science fiction 
+
+1.Supervised learning
+2.unsupervised learning 
+
+Data science-3years
+Machine learning-3years
+Artificial intelligence-3years
+
+understanding data science we have to learn data structures
+
+Scalar Vs Vector
+single values   multiple values
+numbers         Dictorianaries
+string          array
+Double          tuples
+boolean         lists
+
+
+the main we shall be using are : 
+Json & Csv files 
+how to access Api's and Url 
+
+
+Installing the jupyter Notebook
+pd is pandas
+A class is always capitalized
+methods are small letters beginning
+
+Dataframe we have Methods and Classes
+head to explain rows and columns of our data 
+isnull is a method or function that identify missing values 
+dataframe is a class 
+.describe this describes the data 
+how to merch data sets together 
+
+we find the statistical methods by using describe 
+
+Assignment
+how to data clean 
+we have a data set called users.json
+we are cleaning 
+
+json - java script opjection notation
+csv - comma separated values 
+
+
+Dataframes in pandas 
+numpy for numeric operations 
+an array isa array 
+Array operations using nampy 
+serie is a one demension list 
+we use series when we are creating objects
+jupyter Notebook 
+
+
+we use the value_counts to count the length of our dictionary 
+to_numpy creates for us an array 
+
+
+grouping
+data merging
+caluculating the age with Data Science 
+apply invoke a function on a serie 
+daa transformations in data Science 
+1 hour = Quiz 
+data vizualisation
 
 
 

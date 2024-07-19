@@ -13,4 +13,4 @@ print(matrix.ndim)
 
 # Numpy array attributes(shape & Dinamension)
 print(matrix.shape)
-print(matrix[:,2])
+print(matrix[1,2])

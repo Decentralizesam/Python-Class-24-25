@@ -46,7 +46,7 @@ print(mean_age)
 
 
 
-
+# display the missing values in the dataframe 
 
 import pandas as pd 
 
@@ -55,3 +55,30 @@ data={
     'Age':[20,None,21,22,23],
     'city':["kla","Mkn","Jja",None]
 }
+
+df_missing=pd.Dataframe(data)
+print(df_missing)
+
+# drop rows with missing values
+df_drooped=df_missing.dropna()
+print(df_dropped)
+
+#Filling missing values 
+df_filled = df_missing.fillna({
+    'Name':'Unknown',
+    'Age':int(df_missing['Age'].mean()),
+    'Salary':0,
+    'city':'Kampala'
+})
+print(df_filled)
+
+
+#Filtering 
+filtered_df=df_missing[df_missing['Age']>22.5]
+print(filtered_df)
+
+#data grouping 
+#group by city and calculate the mean age of each city 
+
+group_df=df_filled.groupby('City')['Age'].mean()
+print(group_df)

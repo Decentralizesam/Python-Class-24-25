@@ -13,4 +13,3 @@ else:
     print("status code:", response.status_code)
     print("response:", response.text)
     
-    # code did not work for me 
